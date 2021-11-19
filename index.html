@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sathya MV</title>
+  </head>
+  <body>
+    <header class="full-screen-header" id="home">
+      <nav class="nav nav-top">
+        <div class="logo">Sathya MV.</div>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a class="btn" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1 class="title">Web Developer</h1>
+      <span class="sub-title"
+        >Hi, I am Sathya. focusing on building the web.</span
+      >
+      <a class="btn btn-grow" href="/doc/Sathya Narayanan M_Resume.pdf" download
+        >Download Resume</a
+      >
+    </header>
+    <main>
+      <section class="section about-section" id="about">
+        <h2 class="about-title">About Myself</h2>
+        <p class="about-sub">
+          I'm a Web Developer. I have a serious passion for web technologies,
+          animations and creating intuitive, dynamic websites.
+        </p>
+        <hr class="hr" size="3" width="75%" color="black" />
+        <section class="skills" id="skills">
+          <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+              <div class="column right">
+                <div class="bars">
+                  <div class="info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="line html"></div>
+                </div>
+                <div class="bars">
+                  <div class="info">
+                    <span>CSS</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="line css"></div>
+                </div>
+                <div class="bars">
+                  <div class="info">
+                    <span>JavaScript</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line js"></div>
+                </div>
+                <div class="bars">
+                  <div class="info">
+                    <span>PHP</span>
+                    <span>50%</span>
+                  </div>
+                  <div class="line php"></div>
+                </div>
+                <div class="bars">
+                  <div class="info">
+                    <span>MySQL</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="line mysql"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="section section-project" id="project">
+        <h1 class="project-title">My recent works</h1>
+        <div class="project-cards-container">
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-name">Guess My Number</div>
+              <img
+                class="images"
+                src="images/guessmynumber.png"
+                alt="Panda Project"
+              />
+            </div>
+            <div>
+              <div>
+                This is a number guessing game where you need to guess the
+                hidden number and guess it correctly to win the game.
+              </div>
+            </div>
+          </div>
+          <div class="project-card project">
+            <div class="project-header">
+              <div class="project-name">Panda</div>
+              <img class="images" src="images/pandavector.png" alt="" />
+            </div>
+            <div>
+              <div>
+                The panda vector is designed using CSS layers and z-index, and
+                with the help of html divisions.
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-name">The Typist</div>
+              <img class="images" src="images/keywordthegame.png" alt="" />
+            </div>
+            <div>
+              <div>
+                This is a typing game where you need to type and match the word
+                which is generated randomly, match to win the game.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section contact-section" id="contact">
+        <h2 class="section-title contact-title">Contact</h2>
+        <form class="form">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+          <div class="btn-container">
+            <button class="btn btn-square" type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
